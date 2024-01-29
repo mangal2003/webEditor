@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor WEB</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="full-screen">
+        <div id="screen-top">
+            <div id="html-part">
+                <h2>HTML</h2>
+                <textarea name="forhtml" id="thehtml" cols="40" rows="20" placeholder="Write your HTML"></textarea>
+            </div>
+            <div id="css-part">
+                <h2>CSS</h2>
+                <textarea name="forcss" id="thecss" cols="40" rows="20" placeholder="Write your CSS"></textarea>
+            </div>
+        </div>
+        <div id="screen-bottom">
+            <h2>OUTPUT <i class="ri-refresh-fill" id="rBtn" onclick="refresh()"></i></h2>
+            <div id="output-area">
+                <span style="color: gray; margin:1rem;font-size: 1.5rem; display: block;">Click <i style="color: black;"
+                        class="ri-refresh-fill"></i> to see
+                    output</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
